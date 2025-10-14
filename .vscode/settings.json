@@ -1,0 +1,7 @@
+{
+    "python.testing.pytestArgs": [
+        "New folder"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
