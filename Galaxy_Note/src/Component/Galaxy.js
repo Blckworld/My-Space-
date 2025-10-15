@@ -115,7 +115,7 @@ const Galaxy = () => {
         headers: { "Content-Type": "application/json" }
       });
       if (response.status === 200) {
-        alert("Note saved successfully");
+        alert("Your message has been saved. A loving memory to cherish forever.");
         setContent("");
         setOpen(false);
       } else {
