@@ -1,0 +1,17 @@
+--SQL database :
+
+create database notepad;
+use notepad; 
+
+--creating a table
+CREATE TABLE notes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+--To describe the structure of a table or view:
+dec notes;
+
+--To view Stored Data
+select * from notes;
