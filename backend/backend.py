@@ -12,7 +12,7 @@ db_config = {
     'host': 'localhost',
     'database': 'notepad'
 }
-
+#db connection using pymysql 
 def get_db_connection():
     
     return pymysql.connect(
@@ -21,7 +21,7 @@ def get_db_connection():
         password=db_config["password"],
         database=db_config["database"]
     )
-
+# this will save the notes
 @app.route('/save-note', methods=['POST'])
 def save_note():
     data = request.get_json()
@@ -35,7 +35,7 @@ def save_note():
     cursor.close()
     conn.close()
     return jsonify({'message': 'Note saved successfully'}), 200
-
+# fetching the notes entered  
 @app.route('/notes', methods=['GET'])
 def fetch_notes():
     conn = get_db_connection()
