@@ -1,12 +1,12 @@
-# ⭐ Star Messages – A Digital Space to Share Unspoken Feelings
+# ⭐ My Space – A Digital Space to Share Unspoken Feelings
 
-Star Messages is a heartfelt web application that allows users to send messages or thoughts to someone who is no longer with us by simply clicking on a star icon. It offers a meaningful and personal space to express emotions, memories, gratitude, or words left unsaid—helping users find comfort through expression.
+It is a heartfelt web application that allows users to send messages or thoughts to someone who is no longer with us by simply clicking on a star icon. It offers a meaningful and personal space to express emotions, memories, gratitude, or words left unsaid—helping users find comfort through expression.
 
 ---
 
 ## 🌌 About the Project
 
-Losing someone often leaves us with words we never had the chance to say. **Star Messages** transforms that emotion into a gentle digital experience where users can:
+Losing someone often leaves us with words we never had the chance to say. **My Space** transforms that emotion into a gentle digital experience where users can:
 
 - Click on a **star** to send a message
 - Freely express their **thoughts, memories, and emotions**
